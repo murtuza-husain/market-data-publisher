@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ad0d13fe-b032-4dfc-a419-d1c61560d759" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prometheus.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/murtuza/mdp/ApplicationRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/murtuza/mdp/Cli.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/murtuza/mdp/ITimeManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/murtuza/mdp/MarketDataModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/murtuza/mdp/MetricsModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/murtuza/mdp/ServiceModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/murtuza/mdp/TransportModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/murtuza/mdp/event/DisruptorEventBroker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/murtuza/mdp/event/IEventBroker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/murtuza/mdp/event/MarketDataEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/murtuza/mdp/md/CsvStaticMarketDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/murtuza/mdp/md/IMarketDataEventHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/murtuza/mdp/md/IMarketDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/murtuza/mdp/md/InMemoryMarketDataHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/murtuza/mdp/md/MarketDataEventType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/murtuza/mdp/md/NoOpMarketDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/murtuza/mdp/metrics/IMetricsRecorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/murtuza/mdp/metrics/PrometheusHttpServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/murtuza/mdp/metrics/PrometheusMetricsRecorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/murtuza/mdp/transport/CsvTransport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/murtuza/mdp/transport/ITransport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/murtuza/mdp/transport/NoOpTransport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/murtuza/mdp/md/InMemoryMarketDataHandlerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/murtuza/mdp/md/MarketDataEventTypeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="3ImfOXexJDrx4nzFHXLTBRsfxF9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "last_directory_selection": "C:/dev/market-data-publisher/src/main/java/com/murtuza/mdp",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.murtuza.mdp.md" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.InMemoryMarketDataHandlerTest.testShouldPublish">
+    <configuration name="Cli" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.murtuza.mdp.Cli" />
+      <module name="market-data-publisher" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Users\murtu\Downloads\market_inputs.csv C:\Users\murtu\Downloads\market_outputs.csv" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.murtuza.mdp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InMemoryMarketDataHandlerTest.testDiscardOutOfOrderEvent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="market-data-publisher" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.murtuza.mdp.md.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.murtuza.mdp.md" />
+      <option name="MAIN_CLASS_NAME" value="com.murtuza.mdp.md.InMemoryMarketDataHandlerTest" />
+      <option name="METHOD_NAME" value="testDiscardOutOfOrderEvent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InMemoryMarketDataHandlerTest.testShouldPublish" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="market-data-publisher" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.murtuza.mdp.md.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.murtuza.mdp.md" />
+      <option name="MAIN_CLASS_NAME" value="com.murtuza.mdp.md.InMemoryMarketDataHandlerTest" />
+      <option name="METHOD_NAME" value="testShouldPublish" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InMemoryMarketDataHandlerTest.testValidation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="market-data-publisher" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.murtuza.mdp.md.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.murtuza.mdp.md" />
+      <option name="MAIN_CLASS_NAME" value="com.murtuza.mdp.md.InMemoryMarketDataHandlerTest" />
+      <option name="METHOD_NAME" value="testValidation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MarketDataEventTypeTest.testParse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="market-data-publisher" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.murtuza.mdp.md.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.murtuza.mdp.md" />
+      <option name="MAIN_CLASS_NAME" value="com.murtuza.mdp.md.MarketDataEventTypeTest" />
+      <option name="METHOD_NAME" value="testParse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Cli" />
+      <item itemvalue="JUnit.InMemoryMarketDataHandlerTest.testShouldPublish" />
+      <item itemvalue="JUnit.InMemoryMarketDataHandlerTest.testDiscardOutOfOrderEvent" />
+      <item itemvalue="JUnit.InMemoryMarketDataHandlerTest.testValidation" />
+      <item itemvalue="JUnit.MarketDataEventTypeTest.testParse" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.InMemoryMarketDataHandlerTest.testShouldPublish" />
+        <item itemvalue="Application.Cli" />
+        <item itemvalue="JUnit.InMemoryMarketDataHandlerTest.testDiscardOutOfOrderEvent" />
+        <item itemvalue="JUnit.InMemoryMarketDataHandlerTest.testValidation" />
+        <item itemvalue="JUnit.MarketDataEventTypeTest.testParse" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad0d13fe-b032-4dfc-a419-d1c61560d759" name="Changes" comment="" />
+      <created>1788374632715</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1788374632715</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

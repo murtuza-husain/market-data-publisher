@@ -1,9 +1,11 @@
 # market-data-publisher
 
+`java com.murtuza.mdp.Cli <path to input file> <path to output file>`
+
 ## Design Choices
 
 - Market Data is high volume therefore I have opted for low latency optimisations
- - Lock free handoff using a volatile `int` as a sequence lock
+ - Lock free handoff using a `volatile int` as a sequence lock
  - No allocation of objects on hot path (map pre-populated based on universe of known symbols)
 - Metrics captured into Prometheus and can be visualised in Grafana via Docker script.
  - Counts on events received, how many were erroneous and how many were malformed.
